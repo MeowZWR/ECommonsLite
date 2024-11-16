@@ -12,6 +12,7 @@ namespace ECommonsLite.DalamudServices;
 public class Svc
 {
     [PluginService] public static IDalamudPluginInterface PluginInterface { get; private set; }
+    [PluginService] public static IFramework Framework { get; private set; }
     [PluginService] public static IPluginLog Log { get; private set; }
 
     internal static bool IsInitialized = false;

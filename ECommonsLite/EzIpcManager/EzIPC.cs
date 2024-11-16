@@ -29,7 +29,7 @@ public static class EzIPC
     /// Initializes IPC provider and subscriber for an instance type. Static methods or field/properties/properties will be ignored, register them separately via static Init if you must.<br></br>
     /// Each method that have <see cref="EzIPCAttribute"/> or <see cref="EzIPCEventAttribute"/> will be registered for IPC under "Prefix.IPCName" tag. If prefix is not specified, it is your plugin's internal name. If IPCName is not specified, it is method name.<br></br>
     /// Each Action and Function field/property that have <see cref="EzIPCAttribute"/> will be assigned delegate that represents respective GetIPCSubscriber. Each Action field/property that have <see cref="EzIPCEventAttribute"/> will be assigned to become respective tag's event trigger. Make sure to explicitly specify prefix if you're interacting with other plugin's IPC.<br></br>
-    /// You do not need to dispose IPC methods in any way. Everything is disposed upon calling <see cref="ECommonsMain.Dispose"/>.
+    /// You do not need to dispose IPC methods in any way. Everything is disposed upon calling <see cref="ECommonsLiteMain.Dispose"/>.
     /// </summary>
     /// <param name="instance">Instance of a class that has EzIPC methods and field/properties/properties.</param>
     /// <param name="prefix">Name prefix</param>
@@ -42,7 +42,7 @@ public static class EzIPC
     /// Initializes IPC provider and subscriber for a static type.<br></br>
     /// Each method that have <see cref="EzIPCAttribute"/> or <see cref="EzIPCEventAttribute"/> will be registered for IPC under "Prefix.IPCName" tag. If prefix is not specified, it is your plugin's internal name. If IPCName is not specified, it is method name.<br></br>
     /// Each Action and Function field/property that have <see cref="EzIPCAttribute"/> will be assigned delegate that represents respective GetIPCSubscriber. Each Action field/property that have <see cref="EzIPCEventAttribute"/> will be assigned to become respective tag's event trigger. Make sure to explicitly specify prefix if you're interacting with other plugin's IPC.<br></br>
-    /// You do not need to dispose IPC methods in any way. Everything is disposed upon calling <see cref="ECommonsMain.Dispose"/>.
+    /// You do not need to dispose IPC methods in any way. Everything is disposed upon calling <see cref="ECommonsLiteMain.Dispose"/>.
     /// </summary>
     /// <param name="staticType">Type of a static class that has EzIPC methods and field/properties/properties.</param>
     /// <param name="prefix">Name prefix</param>

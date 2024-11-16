@@ -20,4 +20,17 @@ public static unsafe partial class GenericHelpers
     {
         return values.Any(x => x.Equals(obj));
     }
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static void Safe(System.Action a, bool suppressErrors = false)
+    {
+        try
+        {
+            a();
+        }
+        catch (Exception e)
+        {
+            if (!suppressErrors) PluginLog.Error($"{e.Message}\n{e.StackTrace ?? ""}");
+        }
+    }
 }
