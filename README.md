@@ -7,5 +7,3 @@ This repository contains lightweight version of [ECommons](https://github.com/Ni
 
 ## License
 All files in this repository are licensed under the license listed in LICENSE.md file unless stated otherwise. By contributing the code into this repository you agreeing with licensing submitted code under this license.
-
-##### Final Fantasy XIV © SQUARE ENIX CO., LTD. All Rights Reserved. Customize+ and its developers are not affiliated with SQUARE ENIX CO., LTD. in any way.
