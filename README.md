@@ -2,7 +2,7 @@
 This repository contains lightweight version of [ECommons](https://github.com/NightmareXIV/ECommons) library containing only essential features used by Customize+.
 
 ## Acknowledgements
-* Limiana for ECommons.
+* Limiana and ECommons Contributors for [ECommons](https://github.com/NightmareXIV/ECommons).
 * Everyone who contributed code and features through pull requests.
 
 ## License
