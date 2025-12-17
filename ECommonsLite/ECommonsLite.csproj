@@ -1,4 +1,4 @@
-﻿<Project Sdk="Dalamud.NET.Sdk/13.1.0">
+﻿<Project Sdk="Dalamud.NET.Sdk/14.0.0">
 
 	<PropertyGroup>
 		<NoWarn>CS1591;CA1401;CS0649;CS8632;CS0414;CS0169;IDE1006;CS0419</NoWarn>
